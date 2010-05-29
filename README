@@ -1,0 +1,14 @@
+http://brettalton.com
+brett.jr.alton@gmail.com
+
+INFO:
+	* you can either run this script using 'run' then 'push' or 'pull', you can install it using 'install' then 'push' or 'pull'  or you can choose the 'uninstall' option to remove previously installed files
+	* if rsync/ssh are both prompting you for your password and it should be automatic, run 'rsync.sh uninstall' and then try again
+
+DIRECTORIES CREATED:
+	* $HOME/
+		* bin
+		* cron
+		* logs
+
+USAGE: ./rsync.sh ['uninstall' | 'install' | 'run'] ['push' | 'pull'] [local_dir] [remote_user] [remote_host] [remote_dir] [remote_ssh_port]
